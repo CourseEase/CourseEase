@@ -15,3 +15,5 @@ require('./bootstrap');
 require('./components/Example');
 
 require('./components/Buttons/ButtonStyle1');
+
+require('./components/Home');
