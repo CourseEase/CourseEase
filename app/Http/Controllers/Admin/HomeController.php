@@ -12,4 +12,8 @@ class HomeController extends Controller
     {
         return view("admin/home");
     }
+
+    public function createLesson(){
+        return view("admin/create-lesson");
+    }
 }
