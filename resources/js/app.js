@@ -19,3 +19,10 @@ require('./components/Buttons/ButtonStyle1');
 require('./components/Home');
 
 require('./components/UserMenu/Menu')
+require('./components/Header/Header')
+
+require('./components/SideBar/SideBar');
+
+require('./components/pages/CreateLesson');
+
+require('./components/SideAction/SideAction');
