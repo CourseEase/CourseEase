@@ -17,3 +17,5 @@ require('./components/Example');
 require('./components/Buttons/ButtonStyle1');
 
 require('./components/Home');
+
+require('./components/UserMenu/Menu')

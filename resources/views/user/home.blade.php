@@ -10,6 +10,7 @@
                 <h2>User</h2>
                 <p>Render Elements Here</p>
                 <div id="example"> </div>
+                <div id="menu"></div>
 
             </div>
         </div>
@@ -23,26 +24,11 @@
                 <p>Render Elements Here</p>
 
                 {{-- example  ************************************************************************************ --}}
-                <div id="data"></div>
 
-                <script>
-                    fetch('http://localhost:8000/show-users/0')
-                        .then((response) => {
-                            if (response.ok) {
-                                return response.json(); // Parse the JSON data
-                            } else {
-                                throw new Error('Error: ' + response.status);
-                            }
-                        })
-                        .then((data) => {
-                            let element = document.getElementById("data");
-                            // Work with the parsed JSON data
-                            element.innerHTML += JSON.stringify(data);
-                        })
-                        .catch((err) => {
-                            // Handle error
-                        });
-                </script>
+                <div id="loading"></div>
+                <div id="display"></div>
+
+            
                 {{-- ************************************************************************************ --}}
 
             </div>
