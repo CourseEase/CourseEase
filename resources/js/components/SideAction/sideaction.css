@@ -1,0 +1,13 @@
+.side-action-main-wrapper{
+  height: 100%;
+  /* background-color: red; */
+}
+.side-action-title-wrapper{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #CCCCCC;
+  height: 40px;
+}
+.side-action-title{
+  margin-left: 12px;
+}

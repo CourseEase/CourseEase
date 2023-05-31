@@ -2,6 +2,7 @@
 
 @section('content')
 
-<div id="header"> </div>
+<div id="create-lesson"> </div>
+<!-- <div id="side-bar"> </div> -->
 
 @endsection

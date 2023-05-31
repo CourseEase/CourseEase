@@ -1,0 +1,9 @@
+.tools-wrapper{
+  flex: 1;
+}
+.content-wrapper{
+  flex: 1;
+}
+.main-wrapper{
+  display: flex;
+}
