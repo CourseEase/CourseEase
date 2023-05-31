@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-                        user.blade.php
+                        admin.blade.php
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -76,6 +76,7 @@
         </nav>
 
         <main class="py-4">
+            
             @yield('content')
         </main>
     </div>

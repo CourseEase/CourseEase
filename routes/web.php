@@ -26,11 +26,7 @@ Route::get('/user', [App\Http\Controllers\User\HomeController::class, 'index'])-
 
 Route::get('/admin', [App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin.home');
 
-Route::get('/admin/create-lesson', [App\Http\Controllers\Admin\HomeController::class, 'createLesson'])->name('admin.create-lesson');
-
 // resources with sample data
 Route::get('/show-users/{id}', [App\Http\Controllers\User\HomeController::class, 'showUsers']);
 Route::get('/show-courses/{id}', [App\Http\Controllers\User\HomeController::class, 'showCourses']);
 Route::get('/show-materials/{id}', [App\Http\Controllers\User\HomeController::class, 'showLearningMaterials']);
-
-

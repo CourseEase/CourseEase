@@ -18,4 +18,4 @@ require('./components/Buttons/ButtonStyle1');
 
 require('./components/Home');
 
-require('./components/Header/Header')
+require('./components/UserMenu/Menu')
