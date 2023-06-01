@@ -5,9 +5,9 @@ import '../../../css/buttons.css';
 
 function ButtonStyle1(props) {
     return (
-        <div className={`button ${ props.looks }`}>
+        <button type='button' className={`btn button ${ props.looks }`}>
           {props.children}
-        </div>
+        </button>
     );
 }
 

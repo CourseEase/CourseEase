@@ -1,0 +1,25 @@
+.lesson-dropdown-wrapper{
+  display: flex;
+  height: 40px;
+  border-left: 3px solid #3F5DF8;
+  background-color: #E7EBFF;
+  border-radius: 10px;
+  align-items: center;
+}
+.lesson-name{
+  margin: 0 12px;
+  font-size: 12px;
+}
+
+.lesson-type-wrapper{
+  display: flex;
+  height: 30px;
+  /* border-left: 3px solid #3F5DF8; */
+  /* background-color: #E7EBFF; */
+  border-radius: 10px;
+  align-items: center;
+}
+.lesson-type-name{
+  margin: 0 12px;
+  font-size: 12px;
+}

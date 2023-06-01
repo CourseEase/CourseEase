@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './createlesson.css';
 import Header from '../Header/Header';
 import SideBar from '../SideBar/SideBar';
+import VideoForm from '../VideoForm/VideoForm';
 
 function CreateLesson(props) {
     return (
@@ -14,7 +15,7 @@ function CreateLesson(props) {
               <SideBar />
             </div>
             <div className='content-wrapper'>
-              
+              <VideoForm />
             </div>
           </div>
         </>

@@ -26,3 +26,13 @@ require('./components/SideBar/SideBar');
 require('./components/pages/CreateLesson');
 
 require('./components/SideAction/SideAction');
+
+require('./components/VideoForm/VideoForm');
+
+require('./components/LessonDropdown/LessonDropdown');
+
+require('./components/LessonDropdown/LessonType');
+
+require('./components/Buttons/ButtonStyle2');
+
+require('./components/Buttons/ButtonStyle3');

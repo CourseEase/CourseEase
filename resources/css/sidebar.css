@@ -4,7 +4,7 @@
   height: calc(100vh - 50px);
   
   background-color: #fff;
-  max-width: 280px;
+  /* max-width: 280px; */
 }
 
 .tool-cont{
@@ -12,6 +12,10 @@
   height: 100%;
   border-right: 1px solid #CCCCCC;
   /* background-color: red; */
+  padding: 20px 0px;
+
+  display: flex;
+  justify-content: center;
 }
 .tool-spread{
   flex: 1;

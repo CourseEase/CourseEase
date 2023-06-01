@@ -11,3 +11,13 @@
 .side-action-title{
   margin-left: 12px;
 }
+.side-action-menu-wrapper{
+  padding: 8px;
+  height: 100%;
+  /* background-color: red; */
+}
+.thumb{
+  display: flex;
+  height: 30px;
+  background-color: blue;
+}
