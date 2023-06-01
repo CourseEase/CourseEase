@@ -6,26 +6,26 @@ import '../../../css/loading.css';
 
 import Skeleton from '../Loading/Skeleton';
 
-function ShowCources(){
+const ShowCources = () => {
     if (document.getElementById('display')) {
         ReactDOM.render(<Courses /> , document.getElementById('display'));
       }
 }
 
-function ShowMaterials(){
+const ShowMaterials = () => {
     if (document.getElementById('display')) {
         ReactDOM.render(<Materials /> , document.getElementById('display'));
       }
 }
 
-function ShowUsers(){
+const ShowUsers = () => {
     if (document.getElementById('display')) {
         ReactDOM.render(<Users /> , document.getElementById('display'));
       }
 }
 
 
-function Menu() {
+const Menu = () => {
   return (
     <div>
       <button onClick={ShowCources}>Courses</button>
@@ -37,12 +37,12 @@ function Menu() {
   );
 }
 
-function Display(props) {
+const Display = (props) => {
   return <div>{props.data}</div>;
 }
 
 
-function Materials() {
+const Materials = () => {
   const [isLoading, setIsLoading] = useState([]);
   const [materialData, setMaterialData] = useState([]);
 
@@ -68,7 +68,8 @@ function Materials() {
 
 
   return (
-    <div>
+  <>
+      <div>
       {isLoading ? (
 
         <div>
@@ -80,12 +81,14 @@ function Materials() {
         <Display data={materialData} />
       )}
     </div>
+  </>
+
   );
 }
 
 
 
-function Users() {
+const Users = () => {
   const [isLoading, setIsLoading] = useState([]);
   const [userData, setUserData] = useState([]);
 
@@ -108,6 +111,7 @@ function Users() {
     }, []);
 
   return (
+    <>
     <div>
       {isLoading ? (
             <div>
@@ -119,12 +123,14 @@ function Users() {
         <Display data={userData} />
       )}
     </div>
+    </>
+    
   );
 }
 
 
 
-function Courses() {
+const Courses = () => {
   const [isLoading, setIsLoading] = useState([]);
   const [courseData, setCourseData] = useState([]);
 
@@ -147,7 +153,8 @@ function Courses() {
     }, []);
 
   return (
-    <div>
+    <>
+        <div>
       {isLoading ? (
             <div>
                 <Skeleton />
@@ -158,11 +165,13 @@ function Courses() {
         <Display data={courseData} />
       )}
     </div>
+    </>
+
   );
 }
 
 
-export default { Menu, Display, Courses, Materials, Users };
+export {Courses, Materials};
 
 if (document.getElementById('menu')) {
   ReactDOM.render(<Menu />, document.getElementById('menu'));

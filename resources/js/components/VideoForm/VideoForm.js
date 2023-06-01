@@ -6,7 +6,7 @@ import './videoform.css';
 function VideoForm(props) {
     return (
       <div className='form-wrapper form-row'>
-        <div class="col-md-6">
+        <div className="col-md-6">
           <label>Lesson Title</label>
           <input type='text' className='form-control' />
         </div>
