@@ -8,9 +8,17 @@ import TitleField from '../TextField/TitleField';
 function Header(props) {
     return (
         <div className="header d-flex justify-content-between">
-          <div className='exit-cont'>
-            
+          <div className='d-flex align-items-center'>
+            <div className='exit-cont'>
+              <span class="material-symbols-outlined exit-icon">
+                logout
+              </span>
+            </div>
+            <p className='subject-title'>Subject Title</p>
           </div>
+          {/* <div className='d-flex align-items-center'>
+            <p className='subject-title'>Subject Title</p>
+          </div> */}
           <div className='d-flex align-items-center'>
             <TitleField />
           </div>
