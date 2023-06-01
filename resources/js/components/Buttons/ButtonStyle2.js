@@ -6,7 +6,7 @@ import '../../../css/buttons.css';
 function ButtonStyle2(props) {
     return (
         <button type='button' className={`btn ${ props.looks }`}>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             {props.children}
           </span>
         </button>

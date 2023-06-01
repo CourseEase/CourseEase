@@ -32,3 +32,15 @@ Route::get('/admin/create-lesson', [App\Http\Controllers\Admin\HomeController::c
 Route::get('/show-users/{id}', [App\Http\Controllers\User\HomeController::class, 'showUsers']);
 Route::get('/show-courses/{id}', [App\Http\Controllers\User\HomeController::class, 'showCourses']);
 Route::get('/show-materials/{id}', [App\Http\Controllers\User\HomeController::class, 'showLearningMaterials']);
+
+
+// Access react Route
+
+Route::get('/test', function () {
+    return view('layouts.test');
+});
+
+Route::get('/test/{any}', function () {
+    return view('layouts.test');
+})->where('any', '.*');
+

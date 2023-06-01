@@ -10,7 +10,7 @@ function Header(props) {
         <div className="header d-flex justify-content-between">
           <div className='d-flex align-items-center'>
             <div className='exit-cont'>
-              <span class="material-symbols-outlined exit-icon">
+              <span className="material-symbols-outlined exit-icon">
                 logout
               </span>
             </div>

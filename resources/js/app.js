@@ -36,3 +36,7 @@ require('./components/LessonDropdown/LessonType');
 require('./components/Buttons/ButtonStyle2');
 
 require('./components/Buttons/ButtonStyle3');
+
+// require('./ExampleRouter/app');
+
+require('./components/Layouts/Admin/app');
