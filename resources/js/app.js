@@ -39,4 +39,4 @@ require('./components/Buttons/ButtonStyle3');
 
 // require('./ExampleRouter/app');
 
-require('./components/Layouts/Admin/app');
+require('./components/Layouts/Admin/index.js');
